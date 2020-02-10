@@ -33,4 +33,9 @@ public class consumer {
         return "this interface in belong to 2.0.0";
     }
 
+    @GetMapping("/thisVersion2")
+    public String only2(){
+        return "this interface in belong to 3.0.0";
+    }
+
 }
